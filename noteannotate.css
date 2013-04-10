@@ -1,0 +1,95 @@
+div {
+	margin: 5% 25% 10% 25%;
+}
+
+p {
+	margin: 2em 0 2em 0;
+}
+
+.sub, .indent {
+	padding-left: 3em;
+	padding-right: 6px;
+}
+
+.twoSub, .twoIndent {
+	padding-left: 6em;
+}
+
+body {
+	font-size: 20px;
+	line-height: 24px;
+}
+
+h3 {
+	text-align: center;
+}
+
+.btn-group-wrap {
+	text-align: center;
+	margin-bottom: 0px;
+}
+
+div.btn-group {
+	margin: 0 auto;
+	text-align: center;
+	width: inherit;
+	display: inline-block;
+}
+
+.btn {
+	width: 200px;
+}
+
+.popover-content {
+	color: blue;
+	font-size: 14px;
+	margin: 20px 20px 20px 20px;
+}
+
+.popover {
+	max-width: 300px;
+	line-height: 16px;
+	font-weight: normal;
+}
+
+.arrow {
+	margin: 20px 20px 20px 20px;
+}
+
+.popover.left {
+	margin-left: 255px;
+}
+
+.signature {
+	margin-left: 75%;
+}
+
+.highlight {
+	background: #ffff00;
+}
+
+.firstSig {
+	float: left;
+	line-height: 26px;
+	margin-bottom: 75px
+}
+
+.secondSig {
+	float: right;
+	line-height: 26px;
+}
+
+.hide {
+	visibility: hidden;
+}
+
+.explainer {
+	font-size: 14px;
+	font-style: italic;
+	margin: 20px auto auto;
+	width: 300px;
+}
+
+.autograph {
+	font-family: cursive;
+}
