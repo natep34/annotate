@@ -1,5 +1,5 @@
 div {
-	margin: 5% 25% 10% 25%;
+	margin: 5% 25% 5% 25%;
 }
 
 p {
@@ -20,16 +20,16 @@ body {
 	line-height: 24px;
 }
 
-h3 {
+h3, .center {
 	text-align: center;
 }
 
 .btn-group-wrap {
 	text-align: center;
-	margin-bottom: 0px;
+	margin-bottom: 0;
 }
 
-div.btn-group {
+.btn-group {
 	margin: 0 auto;
 	text-align: center;
 	width: inherit;
@@ -57,11 +57,11 @@ div.btn-group {
 }
 
 .popover.left {
-	margin-left: 255px;
+	margin-left: 325px;
 }
 
 .signature {
-	margin-left: 75%;
+	margin-left: 60%;
 }
 
 .highlight {
@@ -93,3 +93,98 @@ div.btn-group {
 .autograph {
 	font-family: cursive;
 }
+
+td {
+	padding-left: 25px;
+	padding-bottom: 25px;
+}
+
+.tdPadRight {
+	padding-right: 55px;
+}
+
+.underlineText {
+	text-decoration: underline;
+}
+
+.topCenter {
+	vertical-align: top;
+}
+
+.tdNoPadding {
+	padding-left: 0;
+}
+
+#invDivider {
+	margin-top: 450px;
+}
+
+hr {
+	border-top: 1px dotted #333333;
+}
+
+table, #cert {
+	margin-top: 50px;
+}
+
+.boardTable {
+	margin-left: 22%;
+}
+
+li {
+	line-height: 24px;
+}
+
+.centered {
+	width: 190px;
+	margin: 0 auto;
+}
+
+.liLeft {
+	margin-left: 20%
+}
+
+.tileContainer, .tileColumn {
+	width: auto;
+	height: auto;
+	margin: 4% 0 4% 11%;
+}
+
+.tileColumn {
+	width: auto;
+	padding: 5px;
+	height: auto;
+	display: table;
+}
+
+.tile {
+	height: 250px;
+	width: 250px;
+	float: left;
+	margin: 0 50px 0 0;
+}
+
+.tileShadow {
+	-moz-box-shadow: 4px 4px 4px #888;
+	-webkit-box-shadow: 4px 4px 4px #888;
+	box-shadow: 4px 4px 4px #888;
+}
+
+.amarelo {
+	background: rgb(216, 221, 223);
+}
+
+.azul {
+	background: rgb(165, 193, 216);
+}
+
+.landingHeader {
+	width: 555px;
+	margin: 3% auto;
+}
+
+.column {
+	margin-left: 15%
+}
+
+
