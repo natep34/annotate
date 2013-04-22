@@ -1,4 +1,4 @@
-div {
+.defaultDiv {
 	margin: 5% 25% 5% 25%;
 }
 
@@ -144,17 +144,14 @@ li {
 	margin-left: 20%
 }
 
-.tileContainer, .tileColumn {
-	width: auto;
-	height: auto;
+/*.tileContainer, .tileColumn {
 	margin: 4% 0 4% 0;
-}
+}*/
 
 .tile {
 	height: 125px;
 	width: 125px;
 	float: left;
-	margin: 0 175px 0 0;
 }
 
 .tileShadow {
@@ -176,16 +173,34 @@ li {
 }
 
 .highlighted {
-	-moz-box-shadow: 4px 4px 4px rgb(43, 141, 19);
-	-webkit-box-shadow: 4px 4px 4px rgb(43, 141, 19);
-	box-shadow: 4px 4px 4px rgb(43, 141, 19);
+	-moz-box-shadow: 5px 5px 50pxpx rgb(43, 141, 19);
+	-webkit-box-shadow: 5px 5px 5px rgb(43, 141, 19);
+	box-shadow: 5px 5px 5px rgb(43, 141, 19);
 }
 
 .boxText {
 	margin: 40px auto;
+}
+
+.textCenter {
 	text-align: center;
 }
 
 .widthFix {
 	width: 148px;
+}
+
+.row-fluid {
+	margin-bottom: 3%;
+}
+
+.landingHeader {
+	margin: 4% auto 1% auto;
+	width: 555px;
+}
+
+.home-btn {
+	margin: 0 4%;
+	position: fixed;
+	width: 100px;
 }
