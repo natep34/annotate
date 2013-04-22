@@ -1,5 +1,5 @@
-.defaultDiv {
-	margin: 5% 25% 5% 25%;
+.defaultDiv, .popover {
+	margin: 7% 25% 5% 25%;
 }
 
 p {
