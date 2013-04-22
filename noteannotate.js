@@ -1,30 +1,47 @@
 if (Meteor.isClient) {
 
-	Template.note.rendered = function(){
-		$(".popped").popover().click(function(e){e.preventDefault();});
-		$("#npaSelect").click(function(){
-			$("#noteSelect").removeClass("active");
-			$("#npaSelect").addClass("active");
-			$("#noteText").addClass("hide");
-			$("#npaText, #investorText, #certText, #bylawsText, #foundersText").removeClass("hide");
-		});
-		$("#noteSelect").click(function(){
-			$("#noteSelect").addClass("active");
-			$("#npaSelect").removeClass("active");
-			$("#npaText, #investorText, #certText, #bylawsText, #foundersText").addClass("hide");
-			$("#noteText").removeClass("hide");
-		});
-	};
-
 	Template.landing.rendered = function(){
-		$(".tile").mousedown(function(){
-			$(this).removeClass("tileShadow");
+
+		$(".popped").popover().click(function(e){e.preventDefault();});
+
+		$(".tile").mouseenter(function(){
+			$(this).addClass("highlighted");
 		});
 
-		$(".tile").mouseup(function(){
-			$(this).addClass("tileShadow");
+		$(".tile").mouseleave(function(){
+			$(this).removeClass("highlighted");
 		});
 
+		$("#boardNav").click(function(){
+			Meteor.Router.to('/board');
+		});
+
+		$("#bylawsNav").click(function(){
+			Meteor.Router.to('/bylaws');
+		});
+
+		$("#certNav").click(function(){
+			Meteor.Router.to('/certificate');
+		});
+
+		$("#foundersNav").click(function(){
+			Meteor.Router.to('/founders');
+		});
+
+		$("#incorpNav").click(function(){
+			Meteor.Router.to('/incorporation');
+		});
+
+		$("#noteNav").click(function(){
+			Meteor.Router.to('/note');
+		});
+
+		$("#npaNav").click(function(){
+			Meteor.Router.to('/npa');
+		});
+
+		$("#shConsentNav").click(function(){
+			Meteor.Router.to('/shareholderConsent');
+		});
 	};
-
 }

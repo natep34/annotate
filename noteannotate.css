@@ -147,21 +147,14 @@ li {
 .tileContainer, .tileColumn {
 	width: auto;
 	height: auto;
-	margin: 4% 0 4% 11%;
-}
-
-.tileColumn {
-	width: auto;
-	padding: 5px;
-	height: auto;
-	display: table;
+	margin: 4% 0 4% 0;
 }
 
 .tile {
-	height: 250px;
-	width: 250px;
+	height: 125px;
+	width: 125px;
 	float: left;
-	margin: 0 50px 0 0;
+	margin: 0 175px 0 0;
 }
 
 .tileShadow {
@@ -170,21 +163,29 @@ li {
 	box-shadow: 4px 4px 4px #888;
 }
 
-.amarelo {
+.founding {
 	background: rgb(216, 221, 223);
 }
 
-.azul {
+.funding {
 	background: rgb(165, 193, 216);
 }
 
-.landingHeader {
-	width: 555px;
-	margin: 3% auto;
+.operation {
+	background: rgb(114, 162, 201);
 }
 
-.column {
-	margin-left: 15%
+.highlighted {
+	-moz-box-shadow: 4px 4px 4px rgb(43, 141, 19);
+	-webkit-box-shadow: 4px 4px 4px rgb(43, 141, 19);
+	box-shadow: 4px 4px 4px rgb(43, 141, 19);
 }
 
+.boxText {
+	margin: 40px auto;
+	text-align: center;
+}
 
+.widthFix {
+	width: 148px;
+}
