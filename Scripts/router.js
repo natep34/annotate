@@ -10,6 +10,7 @@ if (Meteor.isClient){
 		'/bylaws': 'bylaws',
 		'/founders': 'founders',
 		'/incorporation': 'incorp',
+		'/indemnification': 'indemnification',
 		'/invention': 'invention',
 		'/rspa': 'rspa',
 		'/shareholderConsent': 'shConsent',

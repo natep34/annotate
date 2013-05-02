@@ -32,6 +32,10 @@ if (Meteor.isClient) {
 			Meteor.Router.to('/incorporation');
 		});
 
+		$("#indemnificationNav").click(function(){
+			Meteor.Router.to('/indemnification');
+		});
+
 		$("#inventionNav").click(function(){
 			Meteor.Router.to('/invention');
 		});
