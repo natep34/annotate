@@ -32,12 +32,24 @@ if (Meteor.isClient) {
 			Meteor.Router.to('/incorporation');
 		});
 
+		$("#inventionNav").click(function(){
+			Meteor.Router.to('/invention');
+		});
+
+		$("#ndaNav").click(function(){
+			Meteor.Router.to('/nda');
+		});
+
 		$("#noteNav").click(function(){
 			Meteor.Router.to('/note');
 		});
 
 		$("#npaNav").click(function(){
 			Meteor.Router.to('/npa');
+		});
+
+		$("#rspaNav").click(function(){
+			Meteor.Router.to('/rspa');
 		});
 
 		$("#shConsentNav").click(function(){
