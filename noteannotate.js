@@ -24,6 +24,10 @@ if (Meteor.isClient) {
 			Meteor.Router.to('/certificate');
 		});
 
+		$("#employmentNav").click(function(){
+			Meteor.Router.to('/employeeOffer');
+		});
+
 		$("#foundersNav").click(function(){
 			Meteor.Router.to('/founders');
 		});
