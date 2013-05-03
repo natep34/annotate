@@ -2,9 +2,9 @@ if (Meteor.isClient){
 
 	Template.cert.rendered = function(){
 		$(".popped").popover().click(function(e){e.preventDefault();});
-
-		$("#certNav").click(function(){
-			Meteor.Router.to('/certificate');
+		$(".home-btn").click(function(){
+			Meteor.Router.to('/');
+			$('body').scrollTop(0);
 		});
 	};
 }

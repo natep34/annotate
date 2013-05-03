@@ -1,9 +1,7 @@
 <template name="shConsent">
 
-	<a href="/#">
-		<button type="button" class="btn btn-info home-btn">Home</button>
-	</a>
-	
+	<button type="button" class="btn btn-info home-btn">Home</button>
+
 	<div id="shConsentText" class="defaultDiv">
 		<h3><a href="#" class="popped" rel="popover" data-trigger="click" data-placement="left" data-content="Certain issues require shareholder approval. Since the founders hold the overwhelming majority (if not all) of the voting stock, it’s easier to make shareholder decisions via written consent than to call a meeting and cast votes.">Action By Written Consent of the Shareholders of Acme Inc.</a></h3>
 
@@ -22,7 +20,7 @@
 			</p>
 
 			<p class="sub">
-				<b><u>RESOLVED FURTHER</b></u>: The Company will enter into Indemnification Agreements with its officers and directors in substantially the form attached as <u><a href="/indemnification"> Exhibit A</a></u>.
+				<b><u>RESOLVED FURTHER</b></u>: The Company will enter into Indemnification Agreements with its officers and directors in substantially the form attached as <u><a id="indemnLink"> Exhibit A</a></u>.
 			</p>
 
 			<p class="sub">
@@ -58,8 +56,6 @@
 				<span>Name: Hank Carson</span><br>
 				<span>Title: Shareholder</span>
 			</p>
-
-			<hr>
 
 	</div>
 </template>
