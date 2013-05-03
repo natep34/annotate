@@ -12,6 +12,11 @@ if (Meteor.isClient) {
 			$(this).removeClass("highlighted");
 		});
 
+		$("#advisorNav").click(function(){
+			Meteor.Router.to('/advisor');
+			$('body').scrollTop(0);
+		});
+
 		$("#boardNav").click(function(){
 			Meteor.Router.to('/board');
 			$('body').scrollTop(0);

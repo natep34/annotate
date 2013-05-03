@@ -108,6 +108,10 @@ td {
 	padding-left: 145px;
 }
 
+.tdPadLeftHalf {
+	padding-left: 55px;
+}
+
 .underlineText {
 	text-decoration: underline;
 }
@@ -118,6 +122,10 @@ td {
 
 .tdNoPadding {
 	padding-left: 0;
+}
+
+.tdHalfWidth {
+	width: 45%;
 }
 
 .dividerMargin {
