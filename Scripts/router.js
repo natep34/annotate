@@ -4,6 +4,7 @@ if (Meteor.isClient){
 		'/': 'landing',
 		'/certificate': 'cert',
 		'/employeeOffer': 'employeeOffer',
+		'/escrow': 'escrow',
 		'/nda': 'nda',
 		'/npa': 'npa',
 		'/note': 'note',

@@ -32,6 +32,11 @@ if (Meteor.isClient) {
 			$('body').scrollTop(0);
 		});
 
+		$("#escrowNav").click(function(){
+			Meteor.Router.to('/escrow');
+			$('body').scrollTop(0);
+		});
+
 		$("#foundersNav").click(function(){
 			Meteor.Router.to('/founders');
 			$('body').scrollTop(0);
