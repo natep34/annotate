@@ -6,5 +6,9 @@ if (Meteor.isClient){
 			Meteor.Router.to('/');
 			$('body').scrollTop(0);
 		});
+		$("#bylawsLink").click(function(){
+			Meteor.Router.to('/bylaws');
+			$('body').scrollTop(0);
+		});
 	};
 }
