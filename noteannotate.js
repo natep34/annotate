@@ -32,8 +32,8 @@ if (Meteor.isClient) {
 			$('body').scrollTop(0);
 		});
 
-		$("#contractorNav").click(function(){
-			Meteor.Router.to('/contractor');
+		$("#consultingNav").click(function(){
+			Meteor.Router.to('/consulting');
 			$('body').scrollTop(0);
 		});
 

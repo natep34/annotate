@@ -3,7 +3,7 @@ if (Meteor.isClient){
 	Meteor.Router.add({
 		'/': 'landing',
 		'/advisor': 'advisor',
-		'/contractor': 'contractor',
+		'/consulting': 'consulting',
 		'/certificate': 'cert',
 		'/employeeOffer': 'employeeOffer',
 		'/escrow': 'escrow',
