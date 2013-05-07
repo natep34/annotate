@@ -221,3 +221,8 @@ li {
 .smallDividerMargin {
 	margin-top: 150px;
 }
+
+.rightAlign {
+	float: right;
+	margin-right: 20%;
+}

@@ -32,6 +32,11 @@ if (Meteor.isClient) {
 			$('body').scrollTop(0);
 		});
 
+		$("#contractorNav").click(function(){
+			Meteor.Router.to('/contractor');
+			$('body').scrollTop(0);
+		});
+
 		$("#employmentNav").click(function(){
 			Meteor.Router.to('/employeeOffer');
 			$('body').scrollTop(0);
