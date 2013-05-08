@@ -15,6 +15,10 @@ p {
 	padding-left: 6em;
 }
 
+.threeSub {
+	padding-left: 9em;
+}
+
 body {
 	font-size: 20px;
 	line-height: 24px;
@@ -144,6 +148,10 @@ table, #cert {
 	margin-left: 22%;
 }
 
+.founderExhibitTable {
+	width: 100%;
+}
+
 li {
 	line-height: 24px;
 }
@@ -225,4 +233,12 @@ li {
 .rightAlign {
 	float: right;
 	margin-right: 20%;
+}
+
+.founderTable {
+	margin-left: 3em;
+}
+
+.floatRight {
+	float: right;
 }
