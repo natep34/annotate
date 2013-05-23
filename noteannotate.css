@@ -178,21 +178,21 @@ li {
 }
 
 .founding {
-	background: rgb(216, 221, 223);
+	background: rgb(176, 238, 170);
 }
 
 .funding {
-	background: rgb(165, 193, 216);
+	background: rgb(123, 201, 132);
 }
 
 .operation {
-	background: rgb(114, 162, 201);
+	background: rgb(82, 153, 94);
 }
 
 .highlighted {
 	-moz-box-shadow: 5px 5px 50px rgb(43, 141, 19);
 	-webkit-box-shadow: 5px 5px 5px rgb(43, 141, 19);
-	box-shadow: 5px 5px 5px rgb(43, 141, 19);
+	box-shadow: 5px 5px 5px rgb(52, 75, 196);
 }
 
 .boxText {
@@ -208,7 +208,7 @@ li {
 }
 
 .landingHeader {
-	margin: 4% auto 1% auto;
+	margin: 6% auto 1% auto;
 	width: 555px;
 }
 
@@ -242,3 +242,69 @@ li {
 .floatRight {
 	float: right;
 }
+
+ #seed {
+   margin: 0px 0px 0px 0px;
+   text-shadow: none;
+   font-family:"oswald";
+   font-weight: bold;
+   font-size: 35px;
+   color: #3c8547;
+   line-height: 40px;
+ }
+
+ #change {
+   margin: 10px 0px 0px 0px;
+   text-shadow: none;
+   font-family:"oswald";
+   font-weight: bold;
+   font-size: 35px;
+   color: #8B9090;
+   line-height: 40px;
+ }
+
+ #tm {
+ 	vertical-align: top;
+ 	font-size: 14px;
+ 	color: #8B9090;
+ }
+
+ .navbar {
+   height: 60px;
+ }
+ .navbar .navbar-inner {
+   background: rgba(255, 255, 255, 0.960784);
+   border: none;
+   height: 60px;
+   padding-left: 20px;
+   padding-right: 20px;
+ }
+.navbar .navbar-inner .brand {
+   margin: 0px 0px 0px -15px;
+   text-shadow: none;
+   font-family:"oswald";
+   font-weight: bold;
+   font-size: 24px;
+   color: #3c8547;
+   line-height: 40px;
+ }
+
+ .nav-pills > li > a {
+	margin-top: 15px;
+	font-size: 18px;
+}
+
+.navbar .nav > li > a {
+	color: rgb(15, 47, 213);
+}
+
+.container-fluid.container-fluid-5 {
+   background: rgb(236, 241, 235);
+   font-size: 14px;
+   height: 75px;
+}
+
+.topMarginFooter {
+	margin-top: 25px;
+}
+
