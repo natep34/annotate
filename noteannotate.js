@@ -4,6 +4,11 @@ if (Meteor.isClient) {
 
 		$(".popped").popover().click(function(e){e.preventDefault();});
 
+		$(".brand").click(function(){
+			Meteor.Router.to('/');
+			$('body').scrollTop(0);
+		});
+
 		$(".tile").mouseenter(function(){
 			$(this).addClass("highlighted");
 		});
