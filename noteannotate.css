@@ -308,3 +308,7 @@ li {
 	margin-top: 25px;
 }
 
+.brand {
+	cursor: hand;
+	cursor: pointer;
+}
