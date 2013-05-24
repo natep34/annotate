@@ -243,7 +243,7 @@ li {
 	float: right;
 }
 
- #seed {
+#seed {
    margin: 0px 0px 0px 0px;
    text-shadow: none;
    font-family:"oswald";
@@ -251,9 +251,9 @@ li {
    font-size: 35px;
    color: #3c8547;
    line-height: 40px;
- }
+}
 
- #change {
+#change {
    margin: 10px 0px 0px 0px;
    text-shadow: none;
    font-family:"oswald";
@@ -261,24 +261,26 @@ li {
    font-size: 35px;
    color: #8B9090;
    line-height: 40px;
- }
+}
 
- #tm {
+#tm {
  	vertical-align: top;
  	font-size: 14px;
  	color: #8B9090;
- }
+}
 
- .navbar {
+.navbar {
    height: 60px;
- }
- .navbar .navbar-inner {
+}
+
+.navbar .navbar-inner {
    background: rgba(255, 255, 255, 0.960784);
    border: none;
    height: 60px;
    padding-left: 20px;
    padding-right: 20px;
- }
+}
+
 .navbar .navbar-inner .brand {
    margin: 0px 0px 0px -15px;
    text-shadow: none;
@@ -287,9 +289,9 @@ li {
    font-size: 24px;
    color: #3c8547;
    line-height: 40px;
- }
+}
 
- .nav-pills > li > a {
+.nav-pills > li > a {
 	margin-top: 15px;
 	font-size: 18px;
 }
@@ -311,4 +313,12 @@ li {
 .brand {
 	cursor: hand;
 	cursor: pointer;
+}
+
+.title {
+	text-align: center;
+}
+
+#bylawsCertText {
+	margin-top: 4%;
 }
